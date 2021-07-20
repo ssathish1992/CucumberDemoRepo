@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.781">
-<testcase classname="To login Application" name="To test with valid credentials" time="18.629">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="298.976">
+<testcase classname="To login Application" name="To test login with diff data" time="159.691">
 <system-out><![CDATA[Given Login page............................................................passed
 When Enter valid name "Admin"...............................................passed
 And Enter valid password "admin123".........................................passed
 And Click on Submit button..................................................passed
 Then I shoud see the username as "Welcome Paul".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To login Application" name="To test login with diff data 2" time="109.501">
+<system-out><![CDATA[Given Login page............................................................passed
+When Enter valid name "Admin"...............................................passed
+And Enter valid password "admin123".........................................passed
+And Click on Submit button..................................................passed
+Then I shoud see the username as "Welcome Paul".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To login Application" name="To test with invalid valid credentials" time="29.562">
+<system-out><![CDATA[Given Login page............................................................passed
+When Enter invalid name "sathish"...........................................passed
+And Enter invalid password "sathish"........................................passed
+And Click on Submit button..................................................passed
+Then I shoud see the pagetitle as "OrangeHRM"...............................passed
 ]]></system-out>
 </testcase>
 </testsuite>
