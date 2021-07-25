@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-25T15:03:27.599Z",
+        "line": 3,
+        "name": "To test elearning Portal",
+        "description": "",
+        "id": "to-login-application;to-test-elearning-portal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16300000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Login to Application",
+            "match": {
+              "location": "StepDefinition.SDefinition.login_to_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28246000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Register in Application",
+            "match": {
+              "location": "StepDefinition.SDefinition.register_in_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24774000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validating in Homepage",
+            "match": {
+              "location": "StepDefinition.SDefinition.validating_in_homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To login Application",
+    "description": "",
+    "id": "to-login-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": []
+  }
+]
